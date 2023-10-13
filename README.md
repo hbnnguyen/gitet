@@ -1,13 +1,13 @@
 # Gitlet
 A Version Control System similar to Git for storing file backups.
 
-# Getting started
-Compile all java classes:
+## Getting started
+Compile all Java classes:
 ```
 javac gitlet/Main.java gitlet/Blob.java gitlet/Commit.java gitlet/CommitData.java gitlet/FileData.java gitlet/GitletException.java gitlet/Repository.java gitlet/Utils.java
 ```
 
-# How to use Gitlet
+## How to use Gitlet
 Create a Gitlet repository:
 ```
 java gitlet.Main init
@@ -83,5 +83,5 @@ Merge file from given branch to current branch:
 java gitlet.Main merge [branch name]
 ```
 
-# Acknowledgements
+## Acknowledgements
 This implementation follows the design of Gitlet[https://sp21.datastructur.es/materials/proj/proj2/proj2#j-acknowledgments]
