@@ -24,7 +24,7 @@
 2. String parentId2 - SHA-1 hash of second parent commit
 3. String timestamp = Time of commit creation
 4. String message - Commit message
-5. HashMap<String, String> - a mapping of file names to blob references
+5. HashMap<String, String> - Mapping of file names to blob references
 
 ### Blob
 #### Fields
@@ -33,4 +33,5 @@
 2. byte[] fileContents - data from file
 
 ## Persistence
+
 Every time something is to be modified, read object from file, modify that object, write it back into a file.
