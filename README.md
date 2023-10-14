@@ -82,6 +82,3 @@ Merge file from given branch to current branch:
 ```
 java gitlet.Main merge [branch name]
 ```
-
-## Acknowledgements
-This implementation follows the design of Gitlet[https://sp21.datastructur.es/materials/proj/proj2/proj2#j-acknowledgments]
